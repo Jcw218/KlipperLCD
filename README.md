@@ -3,6 +3,9 @@ Want to run Klipper on your Neptune 3 Pro? And still want to be able to use your
 
 Take a look at this python service for the Elegoo Neptune 3 Pro LCD! Running together with Klipper3d and Moonraker!
 
+IMPORTANT NOTE!!!!
+The Raspberry pi GPIO PINS operate in the Lower 3V range, If your touch screen uses 5V signals, it will fry your Raspberry pi's GPIO Pins. Slight Modification on the Original repository: insted of 5V pin to the touch screen, utilise the 3v3 Voltage GPIO Pin on the Raspberry Pi if your touch screen can operate at the 3v3 volts range.
+
 ## Look and feel
 <p float="left">
     <img src="img/boot_screen.PNG" height="400">
